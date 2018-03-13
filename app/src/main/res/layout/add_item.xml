@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="300dp"
+    android:layout_height="300dp"
+  android:layout_gravity="center"
+  android:orientation="vertical"
+  android:padding="5dp"
+  android:background="@color/popup_color"
+
+  >
+
+  <TextView
+    android:id="@+id/close"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+
+    android:layout_gravity="end"
+    android:background="@drawable/circlebackground"
+    android:gravity="center"
+    android:text="X"
+    android:textColor="@color/text_color"
+    android:textStyle="bold" />
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/add"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="49dp"
+      android:ems="10"
+      android:hint="Title"
+      android:inputType="textPersonName" />
+
+    <Button
+      android:id="@+id/add"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="33dp"
+      android:text="Add" />
+  </RelativeLayout>
+
+
+</LinearLayout>

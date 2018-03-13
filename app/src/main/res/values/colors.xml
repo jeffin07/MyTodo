@@ -5,4 +5,6 @@
   <color name="colorAccent">#FF4081</color>
   <color name="red">#b4090f</color>
   <color name="text_color">#000000</color>
+  <color name="popup_color">#afaaaa</color>
+
 </resources>
